@@ -1,0 +1,91 @@
+.headerMain,
+.header {
+  color: #000000;
+}
+
+.searchWrapper,
+.employeeSearch {
+  display: flex;
+  flex-direction: row;
+}
+
+.employeeSearch {
+  margin: 15px;
+}
+
+.search {
+  background-color: #0000ff;
+  color: #ffffff;
+  width: fit-content;
+  height: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.table {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+}
+
+.table,
+.tableHeader,
+.tableInfo {
+  border: 1px solid #000000;
+}
+
+.tableHeader,
+.tableInfo {
+  color: #000000;
+  padding: 10px;
+  font-size: 1rem;
+  width: 180px;
+}
+
+.tableHeader {
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger;
+}
+
+.employeeWrapper,
+.employeeWrapperManager {
+  display: flex;
+  flex-direction: row;
+}
+
+.employeeWrapperManager {
+  cursor: pointer;
+}
+
+.pagination {
+  width: fit-content;
+  margin-top: 10px;
+  margin-bottom: 1rem;
+}
+
+.hrLink {
+  color: #0000ff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 18rem;
+}
+
+.paginationWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.paginationButton {
+  cursor: pointer;
+  font-size: 0.7rem;
+  background-color: white;
+  border: none;
+  height: fit-content;
+  margin-bottom: 5px;
+}
+
+.paginationButton:disabled {
+  cursor: not-allowed;
+}

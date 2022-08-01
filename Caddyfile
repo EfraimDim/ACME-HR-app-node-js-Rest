@@ -1,0 +1,11 @@
+{
+	auto_https off
+}
+
+:8080 {
+	@notstatic {
+		not path /static/*
+	}
+	file_server /static/*
+	reverse_proxy @notstatic localhost:8000
+}

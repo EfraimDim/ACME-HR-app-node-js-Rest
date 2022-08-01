@@ -1,0 +1,39 @@
+.form {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #0000ff;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 30vh;
+  box-shadow: 0 0 20px #0000ff;
+}
+
+.header {
+  color: #f5f5f5;
+}
+
+.button {
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #0000ff;
+  border-style: none;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin: auto;
+}
+
+.button:active {
+  background-color: #0000ff;
+  color: #ffffff;
+}
+
+.loginInputs {
+  margin: 20px;
+  color: #ffffff;
+}

@@ -1,0 +1,12 @@
+.headerMain,
+.departmentName {
+  color: #000000;
+}
+
+.headerMain {
+  font-size: 1.5rem;
+}
+
+.departmentName {
+  font-size: 2rem;
+}

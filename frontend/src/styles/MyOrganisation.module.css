@@ -1,0 +1,30 @@
+.headerMain,
+.departmentName {
+  color: #000000;
+}
+
+.headerMain {
+  font-size: 1.5rem;
+}
+
+.departmentName {
+  font-size: 2rem;
+}
+
+.toggleWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+
+.active,
+.unActive {
+  color: #000000;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.unActive {
+  color: #808080;
+}

@@ -1,0 +1,5 @@
+__pycache__
+tutorial-env
+.node_modules
+staticfiles
+build

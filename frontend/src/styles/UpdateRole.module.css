@@ -1,0 +1,29 @@
+.header {
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.hrLink {
+  color: #0000ff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: auto 0;
+  margin-left: 25rem;
+  border: none;
+  background-color: #ffffff;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.formColumn {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,40 @@
+version: "3"
+
+networks:
+  default:
+
+volumes:
+  database:
+
+services:
+  database:
+    image: diegmonti/test_db
+    volumes:
+      - database:/var/lib/postgresql/data
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 1234
+    networks:
+      - default
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    environment: 
+      DB_HOST: database
+      DB_PORT: 5432
+      DB_PASSWORD: '1234'
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    image: efraim/acmehr/djangopython
+    ports:
+      - 8080:8080
+    depends_on:
+      database:
+          condition: service_healthy
+    networks:
+      - default

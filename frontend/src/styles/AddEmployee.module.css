@@ -1,0 +1,18 @@
+.hrLink {
+  color: #0000ff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border: none;
+  background-color: #ffffff;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.formColumn {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,52 @@
+.header {
+  color: #000000;
+  font-size: 1.5rem;
+}
+.table {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+}
+
+.table,
+.tableHeader,
+.tableInfo {
+  border: 1px solid #000000;
+}
+
+.tableHeader,
+.tableInfo {
+  color: #000000;
+  padding: 10px;
+  font-size: 1rem;
+  width: 180px;
+}
+
+.tableHeader {
+  font-weight: bold;
+  font-style: italic;
+  font-size: larger;
+}
+
+.infoWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.pagination {
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hrLink {
+  color: #0000ff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 18rem;
+}

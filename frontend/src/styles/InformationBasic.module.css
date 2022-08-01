@@ -1,0 +1,48 @@
+.headerMain,
+.headerSecondary,
+.employeeName {
+  color: #000000;
+}
+
+.headerMain,
+.headerSecondary {
+  font-size: 1.5rem;
+}
+
+.employeeName {
+  font-size: 2rem;
+}
+
+.infoWrapperMain {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoWrapperSecondary {
+  margin-right: 2rem;
+}
+
+.infoHeader {
+  color: #808080;
+  font-weight: bold;
+}
+
+.infoDetails {
+  color: #000000;
+  margin: 1rem;
+  margin-left: 0;
+  font-size: 1rem;
+}
+
+.hrLink {
+  color: #0000ff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: auto 0;
+  margin-left: 18rem;
+}
+
+.editEmployeeWrapper {
+  display: flex;
+  flex-direction: row;
+}
